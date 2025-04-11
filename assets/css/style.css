@@ -115,7 +115,7 @@ body {
 .artic {
   display: flex;
   flex-direction: column;
-  max-width: 32%;
+  max-width: 30%;
   flex-wrap: wrap;
   padding-left: 10px;
 }
