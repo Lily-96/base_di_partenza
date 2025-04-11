@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+.header {
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+  /*max-width: 1200px;//*/
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.margine {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; /*center*/
+}
+.contenitore {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 64px;
+}
+.a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 90px;
+}
+.b {
+  flex: 1 0 700px;
+}
+.c {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.gratis {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  padding: 25px 0;
+  align-items: center;
+}
+span {
+  display: inline-block;
+  margin-right: 25px;
+}
+.btn {
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  width: 130px;
+  text-align: center;
+  height: 25px;
+  padding-top: 9px;
+}
+.stay {
+  display: flex;
+  row-gap: 100px;
+  margin-left: 100px;
+}
+hr {
+  border: solid 1px black;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 100px;
+  letter-spacing: -0.05em;
+  padding-bottom: 26px;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  padding-bottom: 35px;
+}
+.btntitle {
+  display: flex;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  width: 130px;
+  text-align: center;
+  height: 25px;
+  padding-top: 9px;
+  padding-left: 39px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 80px;
+}
+body {
+  font-family: "Spectral", serif, "Roboto", sans-serif;
+}
+.m {
+}
+.mt1 {
+  display: flex;
+  align-items: flex-start;
+  margin-inline: 60px;
+  padding-top: 30px;
+}
+
+.mt1 h3 {
+  font-weight: 400;
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  padding-top: 8px;
+}
+.articoli {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.artic {
+  display: flex;
+  flex-direction: column;
+  max-width: 32%;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
